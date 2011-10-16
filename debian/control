@@ -1,0 +1,22 @@
+Source: setpassword
+Section: misc
+Priority: extra
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+ Ferdinand Thommes <devil@siduction.org>
+Build-Depends: debhelper (>= 8),
+ help2man
+Standards-Version: 3.9.2
+Vcs-Svn: 
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/setpassword
+
+Package: setpassword
+Architecture: all
+Depends: ${misc:Depends},
+ ${shlibs:Depends}
+Recommends: menu
+Suggests: samba-common-bin | samba4-common-bin
+Description: sets password for live user
+ usable for system passwords (passwd) and samba passwords (smbpasswd)
+ .
+ This is a FULLSTORY live-only package and should not be installed to an
+ ordinary system.

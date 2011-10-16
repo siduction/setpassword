@@ -1,0 +1,43 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	help2man	--name=setpassword \
+			--section=8 \
+			--source=siduction \
+			--no-info \
+			--version-option="--dpkg-parsechangelog" \
+			--output=$(CURDIR)/setpassword.8 \
+				$(CURDIR)/setpassword
+	dh_auto_build
+
+override_dh_auto_clean:
+	rm -f $(CURDIR)/setpassword.8
+	dh_auto_clean
+
+create-icons:
+	# requires inkscape and imagemagick to be installed
+	@if [ ! -x /usr/bin/convert ]; then \
+		echo "ERROR: imagemagick not installed!" ; \
+		false ; \
+	fi
+	@if [ ! -x /usr/bin/inkscape ]; then \
+		echo "ERROR: inkscape not installed!" ; \
+		false ; \
+	fi
+	
+	# create XDG compatible icons from SVG
+	for i in 16 22 32 48 64 128; do \
+		mkdir -p "icons/hicolor/$${i}x$${i}/apps" ; \
+		inkscape --export-width=$${i} \
+			 --export-height=$${i} \
+			 --export-png="$(CURDIR)/icons/hicolor/$${i}x$${i}/apps/setpassword.png" \
+				$(CURDIR)/icons/setpassword.svg ; \
+	done
+	
+	# create XPM icons for the debian menu system
+	mkdir -p icons/pixmaps
+	convert icons/hicolor/32x32/apps/setpassword.png icons/pixmaps/setpassword.xpm
+	convert icons/hicolor/16x16/apps/setpassword.png icons/pixmaps/setpassword-16.xpm

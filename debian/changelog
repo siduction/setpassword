@@ -1,6 +1,6 @@
-setpassword (0.3.20) UNRELEASED; urgency=low
+setpassword (0.3.30); urgency=low
 
-  * NOT RELEASED YET
+  * bumped version to 0.3.0
 
  -- Ferdinand Thommes <devil@siduction.org> Sat, 15 Oct 2011 21:48:17
  

@@ -1,12 +1,14 @@
-setpassword (0.3.30); urgency=low
+setpassword (0.3.20) UNRELEASED; urgency=low
 
-  * bumped version to 0.3.0
+  [ Stefan Lippers-Hollmann ]
+  * NOT RELEASED YET
 
- -- Ferdinand Thommes <devil@siduction.org> Sat, 15 Oct 2011 21:48:17
- 
-  * forked setpassword for siduction
+  [ Ferdinand Thommes ]
+  * added options file
+  * fixed control
+  * fixed copyright
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 05:01:20 +0200
+ -- Ferdinand Thommes <devil@siduction.org>  Sun, 23 Oct 2011 09:35:27 +0200
 
 setpassword (0.3.19) unstable; urgency=low
 

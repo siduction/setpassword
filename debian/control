@@ -3,13 +3,11 @@ Section: misc
 Priority: extra
 Maintainer: Ferdinand Thommes <devil@siduction.org>
 XSBC-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-
 Build-Depends: debhelper (>= 8),
  help2man
 Standards-Version: 3.9.2
-Vcs-Git: git.siduction.org/packages/siduction-repository/setpassword.git
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/setpassword.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/setpassword
-Homepage: http://developer.berlios.de/projects/fullstory/setpassword
 
 Package: setpassword
 Architecture: all

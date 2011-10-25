@@ -1,3 +1,12 @@
+setpassword (0.3.20+nmu1) UNRELEASED; urgency=low
+
+  * Non-maintainer upload.
+  * fixed control
+  * fixed copyright
+  * fixed source/options
+
+ -- Dinko Sabo <vibora@siduction.org>  Tue, 25 Oct 2011 23:48:52 +0200
+
 setpassword (0.3.20) UNRELEASED; urgency=low
 
   [ Stefan Lippers-Hollmann ]

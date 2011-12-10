@@ -2,6 +2,7 @@ Source: setpassword
 Section: misc
 Priority: extra
 Maintainer: Ferdinand Thommes <devil@siduction.org>
+Uploaders: siduction builders <packagers@siduction.org>
 XSBC-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: debhelper (>= 8),
  help2man

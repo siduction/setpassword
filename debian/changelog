@@ -1,3 +1,12 @@
+setpassword (0.3.21) unstable; urgency=low
+
+  * bump standards to 3.9.3
+  * bump debhelper to (>= 9)
+  * added myself to uploaders
+  * removed packging@siduction.org from uploaders
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 20 Mar 2012 18:41:27 +0100
+
 setpassword (0.3.20+nmu2) unstable; urgency=low
 
   * Non-maintainer upload.

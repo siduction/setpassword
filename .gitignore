@@ -1,0 +1,7 @@
+debian/files
+debian/setpassword.debhelper.log
+debian/setpassword.postinst.debhelper
+debian/setpassword.postrm.debhelper
+debian/setpassword.substvars
+debian/setpassword/
+setpassword.8

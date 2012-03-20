@@ -2,11 +2,11 @@ Source: setpassword
 Section: misc
 Priority: extra
 Maintainer: Ferdinand Thommes <devil@siduction.org>
-Uploaders: siduction builders <packagers@siduction.org>
+Uploaders: Alf Gaida <agaida@siduction.org>
 XSBC-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends: debhelper (>= 8),
+Build-Depends: debhelper (>= 9),
  help2man
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/setpassword.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/setpassword
 

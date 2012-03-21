@@ -3,7 +3,7 @@ Section: misc
 Priority: extra
 Maintainer: Ferdinand Thommes <devil@siduction.org>
 Uploaders: Alf Gaida <agaida@siduction.org>
-XSBC-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+XSBC-Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: debhelper (>= 9),
  help2man
 Standards-Version: 3.9.3

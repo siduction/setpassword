@@ -12,7 +12,6 @@ Vcs-Browser: http://git.siduction.org/packages/siduction-repository/setpassword
 Package: setpassword
 Architecture: all
 Depends: ${misc:Depends},
- ${shlibs:Depends}
 Recommends: menu
 Suggests: samba-common-bin | samba4-common-bin
 Description: sets password for live user

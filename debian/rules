@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@
+	dh ${@} --parallel
 
 override_dh_auto_build:
 	help2man	--name=setpassword \
@@ -18,11 +18,7 @@ override_dh_auto_clean:
 	dh_auto_clean
 
 create-icons:
-	# requires inkscape and imagemagick to be installed
-	@if [ ! -x /usr/bin/convert ]; then \
-		echo "ERROR: imagemagick not installed!" ; \
-		false ; \
-	fi
+	# requires inkscape to be installed
 	@if [ ! -x /usr/bin/inkscape ]; then \
 		echo "ERROR: inkscape not installed!" ; \
 		false ; \
@@ -36,8 +32,3 @@ create-icons:
 			 --export-png="$(CURDIR)/icons/hicolor/$${i}x$${i}/apps/setpassword.png" \
 				$(CURDIR)/icons/setpassword.svg ; \
 	done
-	
-	# create XPM icons for the debian menu system
-	mkdir -p icons/pixmaps
-	convert icons/hicolor/32x32/apps/setpassword.png icons/pixmaps/setpassword.xpm
-	convert icons/hicolor/16x16/apps/setpassword.png icons/pixmaps/setpassword-16.xpm

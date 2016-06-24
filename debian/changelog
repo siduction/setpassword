@@ -1,48 +1,68 @@
-setpassword (0.3.22) unstable; urgency=low
-
-  * add source override to prevent lintian complaining about
-    XSBC-Original-Maintainer
-  * fixes #649 
-
- -- Alf Gaida <agaida@siduction.org>  Thu, 22 Mar 2012 22:00:34 +0100
-
-setpassword (0.3.21) unstable; urgency=low
-
-  * bump standards to 3.9.3
-  * bump debhelper to (>= 9)
-  * added myself to uploaders
-  * removed packging@siduction.org from uploaders
-
- -- Alf Gaida <agaida@siduction.org>  Tue, 20 Mar 2012 18:41:27 +0100
-
-setpassword (0.3.20+nmu2) unstable; urgency=low
-
-  * Non-maintainer upload.
-  * switch to unstable
-  * add siduction builders to uploaders
-
- -- siduction builders <packaging@siduction.org>  Thu, 17 Nov 2011 22:03:39 +0100
-
-setpassword (0.3.20+nmu1) UNRELEASED; urgency=low
-
-  * Non-maintainer upload.
-  * fixed control
-  * fixed copyright
-  * fixed source/options
-
- -- Dinko Sabo <vibora@siduction.org>  Tue, 25 Oct 2011 23:48:52 +0200
-
-setpassword (0.3.20) UNRELEASED; urgency=low
+setpassword (0.3.28) unstable; urgency=medium
 
   [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
+  
+  [Alf Gaida]
+  * back to upstream, modificated for siduction
 
-  [ Ferdinand Thommes ]
-  * added options file
-  * fixed control
-  * fixed copyright
+ -- Alf Gaida <agaida@siduction.org>  Sat, 25 Jun 2016 01:37:04 +0200
 
- -- Ferdinand Thommes <devil@siduction.org>  Sun, 23 Oct 2011 09:35:27 +0200
+setpassword (0.3.27) unstable; urgency=medium
+
+  * fix F.U.L.L.S.T.O.R.Y. homepage URL.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Mar 2016 02:50:28 +0100
+
+setpassword (0.3.26) unstable; urgency=medium
+
+  * use parallel building.
+  * apply the CTTE decision and remove support for the obsolete "Debian Menu
+    System" (#741573).
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 02 Sep 2015 20:08:44 +0200
+
+setpassword (0.3.25) unstable; urgency=medium
+
+  * bump standards version to 3.9.6, no changes necessary.
+  * convert to machine readable copyright.
+  * update license header.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 04 Jan 2015 00:24:02 +0100
+
+setpassword (0.3.24) unstable; urgency=low
+
+  * bump standards version to 3.9.5, no changes necessary.
+  * debian/control: switch Vcs tags to github.
+  * add Keywords entry to the XDG desktop files.
+  * refresh icons.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 14 Apr 2014 00:09:09 +0200
+
+setpassword (0.3.23) unstable; urgency=low
+
+  * bump standards version to 3.9.4, no changes necessary.
+  * update FSF postal address to be URLs.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Jan 2013 03:33:23 +0100
+
+setpassword (0.3.22) unstable; urgency=low
+
+  * bump standards version to 3.9.3, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Feb 2012 16:53:56 +0100
+
+setpassword (0.3.21) unstable; urgency=low
+
+  * update icons.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 16 Jan 2012 03:50:37 +0100
+
+setpassword (0.3.20) unstable; urgency=low
+
+  * switch to compat level 9.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 16 Jan 2012 03:28:42 +0100
 
 setpassword (0.3.19) unstable; urgency=low
 

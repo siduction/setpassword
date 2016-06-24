@@ -1,5 +1,4 @@
 setpassword		usr/sbin/
-setpassword.desktop	usr/share/applications/siduction/
+setpassword.desktop	usr/share/applications/
 icons/setpassword.svg	usr/share/icons/hicolor/scalable/apps/
 icons/hicolor		usr/share/icons/
-icons/pixmaps		usr/share/

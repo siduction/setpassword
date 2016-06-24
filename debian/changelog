@@ -1,14 +1,4 @@
-<<<<<<< HEAD
 setpassword (0.3.28) unstable; urgency=medium
-=======
-setpassword (0.3.23) unstable; urgency=low
-
-  * modified debian/setpassword.menu to show icon in fluxbox menu 
-
- -- Angelescu Ovidiu <convbsd@siduction.org>  Sun, 12 Oct 2014 23:51:58 +0300
-
-setpassword (0.3.22) unstable; urgency=low
->>>>>>> d4b978a55558c580e0477b4b76d0a494315abd79
 
   [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
